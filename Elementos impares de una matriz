@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main (){
+int matrizC[2][2];//Matriz de 2x2
+    matrizC[0][0]=1;
+    matrizC[0][1]=2;
+    matrizC[1][0]=3;
+    matrizC[1][1]=5;
+//Imprimir los elementos pares de la matriz
+     for (int i = 0; i < 2; i++){
+        for (int j = 0; j <2; j++){
+            if (matrizC[i][j] % 2 == 0){}else{
+                 printf("%d\t", matrizC[i][j]);
+        }
+        }
+        printf("\n");
+    }
+return 0;
+}
