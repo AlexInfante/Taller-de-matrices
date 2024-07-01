@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+    int matrizC[2][2];//Matriz de 2x2
+    matrizC[0][0]=1;
+    matrizC[0][1]=2;
+    matrizC[1][0]=3;
+    matrizC[1][1]=5;
+int filas = sizeof(matrizC) / sizeof(matrizC[0]);//tamaño de matriz en bytes
+int columnas = sizeof(matrizC[0]) / sizeof(matrizC[0][0]);
+    
+    printf("La matriz tiene %d filas y %d columnas.\n", filas, columnas);
+return 0;
+}
