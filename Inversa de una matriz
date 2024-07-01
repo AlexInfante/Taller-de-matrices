@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+    int matrizC[2][2];//Matriz de 2x2
+    matrizC[0][0]=1;
+    matrizC[0][1]=2;
+    matrizC[1][0]=3;
+    matrizC[1][1]=5;
+for (int i = 0; i < 2; i++){
+        for (int j = 0; j <2; j++){
+            printf("%d\t", matrizC[j][i]);
+        }
+        printf("\n");
+    }
+return 0;
+}
